@@ -212,6 +212,14 @@ a{
         width: 40%;
         padding-left: 5%;
     }
+
+    .footer{
+        height: 10px;
+        position: fixed;
+        bottom: 0;
+        padding: 1% 0 1% 0 ;
+    }
+
 }
 
 @media only screen and (max-width: 767px){

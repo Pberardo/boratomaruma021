@@ -200,6 +200,12 @@ img{
         padding-bottom: 0;
     }
 
+    .footer{
+        height: 10px;
+        position: fixed;
+        bottom: 0;
+        padding: 1% 0 1% 0 ;
+    }
     
 
 }

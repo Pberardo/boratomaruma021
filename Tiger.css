@@ -271,6 +271,13 @@ hr{
         margin: 13% 0 0 0;
         text-decoration: underline;
     }
+
+    .footer{
+        height: 10px;
+        position: fixed;
+        bottom: 0;
+        padding: 1% 0 1% 0 ;
+    }
 }
 
 
