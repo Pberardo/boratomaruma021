@@ -8,11 +8,13 @@ html {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
 body{
     background-color: #C0C0C0;
+    overflow-x: hidden;
 }
 
 .header{
@@ -327,8 +329,7 @@ a{
     }
     
     .title-footer h2{
-        text-align: justify;
-        text-indent: 5%;
+        text-align: center;
         font-family: 'Stick No Bills', sans-serif;
         color: #EB9E59 ;
         font-size: 180%;

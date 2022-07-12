@@ -8,11 +8,14 @@ html {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    
 }
 
 
 body{
     background-color: #C0C0C0;
+    overflow-x: hidden;
 }
 
 .header{
