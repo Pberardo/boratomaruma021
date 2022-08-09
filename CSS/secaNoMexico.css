@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body{
+    background-color: #C0C0C0;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    background: #11273D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+
+.buttons{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-left: -12%;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
+    direction: rtl;
+    font-size: 130%;
+    text-decoration: none;
+}
+
+img{
+    padding-top: 3%;
+}
+
+a{
+    width: 100%;
+    text-decoration: none;
+    color: #EB9E59;
+}
+.logo{
+    width: 80%;
+    color:#EB9E59 ;
+    margin-left: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    width: 90%;
+    background: #11273D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    padding: 0 3% 0 3%;
+}
+
+.title h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #EB9E59;
+    font-size: 180%;
+    font-family: 'Stick No Bills', sans-serif;
+    padding: 3% 0 2% 0 ;
+}
+
+.title h4{
+    text-align: center;
+    text-decoration: none;
+    color: #EB9E59;
+    font-size: 90%;
+    font-family:sans-serif;
+    padding: 3% 0 3% 0 ;
+}
+
+.data{
+    text-align: justify;
+    margin: 0 0 0 2%;
+    padding: 2% 0 3% 0;
+    font-family: sans-serif;
+    font-size: 70%;
+    color: #EB9E59;
+}
+
+.text p{
+    text-align: justify;
+    text-indent: 5%;
+    margin: 5% 2% 0 2%;
+    font-family: sans-serif;
+    font-size: 110%;
+}
+
+.text h3{
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 5% 2% 0 2%;
+    
+}
+
+.verticalLine {
+    border-left: thick solid #11273D;
+    margin: 0 0 0 3%;
+  }
+
+.text h2{
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 150%;
+    margin: 13% 0 0 0;
+    text-decoration: underline;
+}
+
+.title-footer{
+    width: 90%;
+    background: #11273D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    margin: 5% 0 20% 0;
+    padding: 1% 0 2% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.title-footer h2{
+    text-align: justify;
+    text-indent: 5%;
+    font-family: 'Stick No Bills', sans-serif;
+    color: #EB9E59 ;
+    font-size: 130%;
+    margin: 3% 3% 5% 3%;
+    font-weight: 300;
+}
+
+.title-footer a{
+    color: #11273D;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    text-decoration: none;
+
+}
+
+.button-instagram{
+    width: 80%;
+    background-color: #EB9E59;
+    margin: 2% 3% 2%  10%;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(216, 211, 211, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.footer{
+    width: 100%;
+    background-color: #11273D;
+    padding: 2% 0 1% 0 ;
+    text-align: center;
+}
+
+.message{
+    font-size: 90%;
+    font-family: 'Stick No Bills', sans-serif;
+    color: white;
+}
+
+.footer a{
+    color: #EB9E59;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    img{
+        width: 100%;
+        margin-left: -3%;
+    }
+
+    .fa{
+        display: inline-flex;
+        margin: 0 0 0 20%;
+    }
+
+    .title-footer a{
+        font-size: 100%;
+    }
+
+    .button-instagram{
+        padding: 1% 0 0 0;
+    }
+
+    .button-instagram a{
+        font-size: 120%;
+    }
+    
+    .button-instagram p{
+        font-size: 90%;
+    }
+}
