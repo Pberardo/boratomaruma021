@@ -99,12 +99,22 @@ a{
     font-size: 110%;
 }
 
-.text h2{
+.titulo{
+    width: 95%;
+    background-color: #11273D;
+    margin: 10% 2.5% 0 2.5%;
+    padding: 3% 0 3% 0;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titulo h2{
     text-align: center;
     font-family: 'Stick No Bills', sans-serif;
-    font-size: 150%;
-    margin: 13% 0 0 0;
+    font-size: 140%;
     text-decoration: underline;
+    color: #EB9E59;
+    margin: 0 0 0 0;
 }
 
 .beer-tree{
