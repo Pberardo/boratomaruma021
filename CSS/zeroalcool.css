@@ -117,7 +117,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    width: 90%;
+    width: 80%;
     padding: 0 0 0 0;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -125,7 +125,7 @@ a{
 .imagem p{
     font-family: 'Stick No Bills', sans-serif;
     font-size: 100%;
-    margin: 1% 0 5% 2%;
+    margin: 1% 0 5% 7%;
 }
 
 .grafico img{
@@ -135,7 +135,7 @@ a{
     margin-top: 4%;
     margin-bottom: 4%;
     border-radius: 12px;
-    width: 90%;
+    width: 80%;
     padding: 0 0 0 0;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -278,11 +278,32 @@ a{
 
 
 @media only screen and (min-width: 767px){
+
+    .button{
+        
+        font-size: 100%;
+    }
+
+    a:hover{
+        color: #C0C0C0;
+    }
+
+    .title{
+        width: 80%;
+        background: #11273D;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
     .title h2{
         text-align: center;
         text-decoration: underline;
         color: #EB9E59;
-        font-size: 300%;
+        font-size: 350%;
         font-family: 'Stick No Bills', sans-serif;
         padding: 3% 0 2% 0 ;
     }
@@ -291,7 +312,7 @@ a{
         text-align: center;
         text-decoration: none;
         color: #EB9E59;
-        font-size: 140%;
+        font-size: 190%;
         font-family:sans-serif;
         padding: 3% 0 3% 0 ;
     }
@@ -306,14 +327,14 @@ a{
     }
 
     .text p{
-        width: 80%;
+        width: 70%;
         text-align: justify;
         text-indent: 5%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         font-family: sans-serif;
-        font-size: 150%;
+        font-size: 170%;
     }
     
     .text h2{
@@ -348,26 +369,26 @@ a{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 50%;
     }
 
     .imagem p{
         font-family: 'Stick No Bills', sans-serif;
         font-size: 100%;
-        margin: 0 0 5% 17%;
+        margin: 0 0 5% 23%;
     }
 
     .grafico img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 25%;
     }
 
     .curiosidade{
-        width: 95%;
+        width: 80%;
         background-color: #11273D;
-        margin: 5% 2.5% 0 2.5%;
+        margin: 5% 12% 0 12%;
         padding: 3% 0 3% 0;
         border-radius: 50px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -420,6 +441,11 @@ a{
 
     .button-instagram a{
         font-size: 180%;
+        color: #11273D;
+    }
+
+    .button-instagram:hover{
+        color: #11273D;
     }
 
     .button-instagram p{
@@ -429,7 +455,7 @@ a{
 
     .button-instagram:hover {
         background-color: white;
-        color: white;
+        color: #11273D;
     }
 
     .fa{
